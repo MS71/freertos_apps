@@ -29,7 +29,7 @@ externalproject_add(libmicroros
             CXXFLAGS=${CMAKE_CXX_FLAGS}
             BUILD_DIR=${CMAKE_BINARY_DIR}
             IDF_PATH=${IDF_PATH}
-            APP_META=${UROS_APP_FOLDER}/app-colcon.meta
+            APP_META=${EXTENSION_DIR}/app-colcon.meta
     INSTALL_COMMAND ""
     BUILD_BYPRODUCTS ${CMAKE_BINARY_DIR}/libmicroros.a
     )
